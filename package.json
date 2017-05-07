@@ -1,0 +1,31 @@
+{
+  "name": "eval-slave",
+  "version": "1.0.0",
+  "description": "Slave stdio node js evaluator",
+  "main": "index.js",
+  "author": "futpib <futpib@gmail.com>",
+  "license": "GPL-3.0+ OR MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "sinon": "^2.2.0",
+    "stdio-mock": "^1.1.0",
+    "xo": "^0.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/futpib/eval-slave.git"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "node-eval-slave": "./cli.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "globals": "^9.17.0",
+    "lodash": "^4.17.4",
+    "serialize-error": "^2.1.0",
+    "stream-json": "^0.4.2"
+  }
+}
