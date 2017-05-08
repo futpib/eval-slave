@@ -19,7 +19,7 @@ npm install -g eval-slave
 
 ## Usage
 
-Check out the [https://github.com/futpib/eval-slave/tree/master/examples](exapmles) dir
+Check out the [exapmles](https://github.com/futpib/eval-slave/tree/master/examples) dir
 
 ### Abstract
 1. Start `node-eval-slave` or `node ./cli.js`
@@ -36,11 +36,11 @@ echo '[{"source":"() => \"test\""}]' | node-eval-slave
 
 ### Python
 
-See [https://github.com/futpib/eval-slave/tree/master/examples/foo.py](example.py)
+See [example.py](https://github.com/futpib/eval-slave/tree/master/examples/foo.py)
 
 ### Emacs Lisp
 
-(probably) Coming soon at [https://github.com/futpib/emacs-nodejs-slave](emacs-nodejs-slave)
+Check out [emacs-nodejs-slave](https://github.com/futpib/emacs-nodejs-slave)
 
 ## Example
 
